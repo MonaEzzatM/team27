@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+/* service Section */
+.services{
+	width: 100%;
+	margin: 30px 0 ; 
+   	text-align: center; 
+}
+.services-contnet h3{
+	font-size: 24px;
+}
+.services .services-contnet p{
+	font-size: 16px; 
+	padding:  0 10px;
+}
+.Nservices{
+	display: flex;          
+	flex-direction: column;
+	justify-content: center;
+}
+.services-card{
+	display: flex;          
+	flex-direction: column;
+    border: 1px solid #f8e1a8;
+    border-radius: 5px;
+    margin: 10px auto;
+    height: 420px;  width: 250px;
+	text-align: center;
+}
+.services-card .service-card-img{
+	width: 100%;
+}
+.services-card .service-card-img h3{
+	margin: 0;
+	font-size: 24px;
+}
+.service-card-description{
+	overflow: hidden;
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+}
+/* button shop*/
+.shop_banner{
+	width: 100%;
+	background-color: #423f3f;
+	padding: 60px 0;
+}
+.button {
+	width: 200px;
+	margin: auto;
+	padding: 20px 10px;
+	text-align: center;
+	border: 2px solid #f8e1a8;
+	color: #f8e1a8;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #f8e1a8;
+	color: #423f3f;
+	cursor: pointer;
+}
+.projects-content{
+	display: flex; 
+	flex-direction: column; 
+	width: 100%;
+	text-align: center;
+}
+.projects-content p{
+	font-size: 16px;
+}
+/* galler portfolio*/
+.gallery{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.gallery .gallery-portfolio .img img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+/* button 2*/
+.button_banner {
+	background-color: #fff;
+	padding: 30px 0;
+	margin: auto;
+}
+.button-black {
+	width: 200px;
+	margin: auto;
+	padding: 20px 10px;
+	text-align: center;
+	border-radius: 5px;
+	text-transform: uppercase;
+	border: 2px solid #423f3f;
+	color: #423f3f;
+	transition: all 0.3s linear;
+	align-items: center;
+}
+.button-black:hover {
+	background-color:#423f3f;
+	color:  #f8e1a8;
+	cursor: pointer;
+}
+
+/* big screens - from size of an ipad till Desktops */
+@media screen and (min-width: 767px){
+	.all-service-container{
+		width: 100%;
+		display: flex; 
+		flex-direction: column;
+		justify-content: center;
+	}
+.services{
+	width: 100%;
+	margin-top:100px;
+}
+.services .services-contnet{
+	width: 40%;
+	margin: auto;
+	padding: 0;
+	text-align: center;     
+	font-size: 18px;
+}
+.services .services-contnet h3{
+	font-size: 26px;
+}
+.services .services-contnet p{
+	font-size: 20px;
+}
+.projects{
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.projects .projects-content{
+	width: 40%;
+	margin: auto;
+	padding: 0;
+	text-align: center;     
+	font-size: 18px;
+
+}
+.Nservices{
+	width: 70%;
+	flex-direction: row;
+	margin:30px auto;
+	text-align: center;     
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.services-card{
+	flex-direction: column; 
+	margin: 0 5px;
+	justify-content: center;
+	width: 290px;
+	height: 420px;
+	position: relative;
+}
+.service-card-img{
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	top: 10px; 
+	left: 0;
+	justify-content: center;
+	text-align: center;
+}
+.services-card img{
+	margin-top: 10px;
+	width: 50px;
+	align-items: center;
+}
+.services-card .service-card-description{
+	position: absolute;
+	height: 69%;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	top:30%;
+	overflow: hidden;
+}
+.gallery{
+	flex-direction: row;
+}
+
+
+}
